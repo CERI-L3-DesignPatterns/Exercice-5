@@ -132,7 +132,7 @@ public class AppliDomotique {
 	}
 
 	private static void affecterModes() {
-		for(IConsommable c : lesConnectes){
+		for (IConsommable c : lesConnectes){
 			definirModeFonctionnement(c);
 		}		
 	}
